@@ -1,0 +1,61 @@
+.row, div[class*=col] {
+    border: 1px solid black;
+}
+
+  .dark{
+     background-color: #2f456f;
+    color: #ffffff;
+    font-size:16px;  
+ }
+
+.big {
+    widtd: 50%;
+}
+.mid {
+    widtd: 20%;
+}
+
+
+div.right{
+    text-align: right
+}
+div.center{
+    text-align: center
+}
+
+div.left{
+    text-align: left
+}
+
+.explain{
+    color: gray;
+    font-size: 6;
+}
+
+tableR {
+  border-spacing: 0;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.tableR td, .tableR th {
+  padding: 10px;
+  border-left: 1px solid;
+  border-top: 1px solid;
+}
+.tableR th {
+  background: #fff5d7;
+  border-top: none;
+}
+.tableR td:first-child, .tableR th:first-child {
+  border-left: none;
+}
+
+/* из-за background */
+
+.tableR th:first-child {
+  border-top-left-radius: 10px;
+}
+.tableR th:last-child {
+  border-top-right-radius: 10px;
+}
+
